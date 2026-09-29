@@ -1,0 +1,2 @@
+upstream: https://github.com/fivetaku/insane-search @ v0.9.1 (2714e72, MIT). Vendored near-verbatim; do not fork-drift — sync from upstream and re-apply the local adaptations below.
+Local adaptations: (1) removed the upstream "Step 0" first-run setup/star-prompt block from SKILL.md — it invoked setup/setup.sh (not vendored here) and solicited a GitHub star for the upstream marketplace; (2) added a Windows note near the top of SKILL.md: use `python` instead of `python3` (Windows has no python3 shim).

@@ -1,0 +1,9 @@
+{
+  "name": "simpleharness",
+  "description": "Lightweight general-purpose Claude Code harness: delegation-first operating protocol (injected at session start), four subagents (author / reviewer / explorer / researcher), twelve skills, and drift-defense + checkpoint hooks.",
+  "version": "1.0.3",
+  "author": {
+    "name": "Kenneth Kim"
+  },
+  "repository": "https://github.com/kennethghkim/simpleharness"
+}

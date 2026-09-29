@@ -1,0 +1,12 @@
+# Ephemeral session state (per repo convention) — never commit
+HANDOFF.md
+ACTIVE-PLAN.md
+
+# Playwright MCP scratch (created when the browser MCP runs from the repo root)
+.playwright-mcp/
+
+# Scratch (NOTEPAD, dogfood artifacts) — never committed
+scratchpad/
+
+# Local Claude Code project settings — machine-specific, never committed
+.claude/

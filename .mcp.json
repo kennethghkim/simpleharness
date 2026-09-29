@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "grep_app": {
+      "type": "http",
+      "url": "https://mcp.grep.app"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "lsp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "lsp-mcp-server@1.1.20"]
+    }
+  }
+}
